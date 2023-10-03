@@ -50,3 +50,7 @@ let package = Package(
             path: "./Sources/Features/Homage"),
     ]
 )
+
+for target in package.targets {
+    target.swiftSettings = debugSwiftSettings
+}
