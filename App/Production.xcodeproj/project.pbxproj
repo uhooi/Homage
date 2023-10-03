@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4B0CB3A52ACC58480025FA52 /* HomageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CB3A42ACC58480025FA52 /* HomageApp.swift */; };
-		4B0CB3A72ACC58480025FA52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CB3A62ACC58480025FA52 /* ContentView.swift */; };
-		4B0CB3A92ACC58490025FA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CB3A82ACC58490025FA52 /* Assets.xcassets */; };
-		4B0CB3AC2ACC58490025FA52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CB3AB2ACC58490025FA52 /* Preview Assets.xcassets */; };
+		4B0CB3BA2ACC5A070025FA52 /* ProductionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CB3B42ACC5A070025FA52 /* ProductionApp.swift */; };
+		4B0CB3BB2ACC5A070025FA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CB3B62ACC5A070025FA52 /* Assets.xcassets */; };
+		4B0CB3BC2ACC5A070025FA52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CB3B82ACC5A070025FA52 /* Preview Assets.xcassets */; };
+		4B0CB3BD2ACC5A070025FA52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CB3B92ACC5A070025FA52 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B0CB3A12ACC58480025FA52 /* Homage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homage.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4B0CB3A42ACC58480025FA52 /* HomageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomageApp.swift; sourceTree = "<group>"; };
-		4B0CB3A62ACC58480025FA52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4B0CB3A82ACC58490025FA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4B0CB3AB2ACC58490025FA52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B0CB3A12ACC58480025FA52 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B0CB3B42ACC5A070025FA52 /* ProductionApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionApp.swift; sourceTree = "<group>"; };
+		4B0CB3B62ACC5A070025FA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B0CB3B82ACC5A070025FA52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B0CB3B92ACC5A070025FA52 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 		4B0CB3982ACC58470025FA52 = {
 			isa = PBXGroup;
 			children = (
-				4B0CB3A32ACC58480025FA52 /* Homage */,
+				4B0CB3B32ACC5A070025FA52 /* Production */,
 				4B0CB3A22ACC58480025FA52 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,44 +43,45 @@
 		4B0CB3A22ACC58480025FA52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B0CB3A12ACC58480025FA52 /* Homage.app */,
+				4B0CB3A12ACC58480025FA52 /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B0CB3A32ACC58480025FA52 /* Homage */ = {
+		4B0CB3B32ACC5A070025FA52 /* Production */ = {
 			isa = PBXGroup;
 			children = (
-				4B0CB3B22ACC589E0025FA52 /* Resources */,
-				4B0CB3A42ACC58480025FA52 /* HomageApp.swift */,
-				4B0CB3A62ACC58480025FA52 /* ContentView.swift */,
+				4B0CB3B52ACC5A070025FA52 /* Resources */,
+				4B0CB3B42ACC5A070025FA52 /* ProductionApp.swift */,
+				4B0CB3B92ACC5A070025FA52 /* ContentView.swift */,
 			);
-			path = Homage;
+			name = Production;
+			path = Homage/Production;
 			sourceTree = "<group>";
 		};
-		4B0CB3AA2ACC58490025FA52 /* Preview Content */ = {
+		4B0CB3B52ACC5A070025FA52 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4B0CB3AB2ACC58490025FA52 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4B0CB3B22ACC589E0025FA52 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4B0CB3A82ACC58490025FA52 /* Assets.xcassets */,
-				4B0CB3AA2ACC58490025FA52 /* Preview Content */,
+				4B0CB3B62ACC5A070025FA52 /* Assets.xcassets */,
+				4B0CB3B72ACC5A070025FA52 /* Preview Content */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B0CB3B72ACC5A070025FA52 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B0CB3B82ACC5A070025FA52 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B0CB3A02ACC58480025FA52 /* Homage */ = {
+		4B0CB3A02ACC58480025FA52 /* Production */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B0CB3AF2ACC58490025FA52 /* Build configuration list for PBXNativeTarget "Homage" */;
+			buildConfigurationList = 4B0CB3AF2ACC58490025FA52 /* Build configuration list for PBXNativeTarget "Production" */;
 			buildPhases = (
 				4B0CB39D2ACC58480025FA52 /* Sources */,
 				4B0CB39E2ACC58480025FA52 /* Frameworks */,
@@ -90,9 +91,9 @@
 			);
 			dependencies = (
 			);
-			name = Homage;
+			name = Production;
 			productName = Homage;
-			productReference = 4B0CB3A12ACC58480025FA52 /* Homage.app */;
+			productReference = 4B0CB3A12ACC58480025FA52 /* Production.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +111,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B0CB39C2ACC58470025FA52 /* Build configuration list for PBXProject "Homage" */;
+			buildConfigurationList = 4B0CB39C2ACC58470025FA52 /* Build configuration list for PBXProject "Production" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,7 +124,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B0CB3A02ACC58480025FA52 /* Homage */,
+				4B0CB3A02ACC58480025FA52 /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -133,8 +134,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B0CB3AC2ACC58490025FA52 /* Preview Assets.xcassets in Resources */,
-				4B0CB3A92ACC58490025FA52 /* Assets.xcassets in Resources */,
+				4B0CB3BC2ACC5A070025FA52 /* Preview Assets.xcassets in Resources */,
+				4B0CB3BB2ACC5A070025FA52 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B0CB3A72ACC58480025FA52 /* ContentView.swift in Sources */,
-				4B0CB3A52ACC58480025FA52 /* HomageApp.swift in Sources */,
+				4B0CB3BD2ACC5A070025FA52 /* ContentView.swift in Sources */,
+				4B0CB3BA2ACC5A070025FA52 /* ProductionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +280,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Homage/Resources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Homage/Production/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 47E56DYP3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -308,7 +309,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Homage/Resources/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Homage/Production/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 47E56DYP3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -333,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B0CB39C2ACC58470025FA52 /* Build configuration list for PBXProject "Homage" */ = {
+		4B0CB39C2ACC58470025FA52 /* Build configuration list for PBXProject "Production" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B0CB3AD2ACC58490025FA52 /* Debug */,
@@ -342,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B0CB3AF2ACC58490025FA52 /* Build configuration list for PBXNativeTarget "Homage" */ = {
+		4B0CB3AF2ACC58490025FA52 /* Build configuration list for PBXNativeTarget "Production" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B0CB3B02ACC58490025FA52 /* Debug */,
