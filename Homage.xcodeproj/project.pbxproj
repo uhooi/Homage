@@ -51,10 +51,9 @@
 		4B0CB3A32ACC58480025FA52 /* Homage */ = {
 			isa = PBXGroup;
 			children = (
+				4B0CB3B22ACC589E0025FA52 /* Resources */,
 				4B0CB3A42ACC58480025FA52 /* HomageApp.swift */,
 				4B0CB3A62ACC58480025FA52 /* ContentView.swift */,
-				4B0CB3A82ACC58490025FA52 /* Assets.xcassets */,
-				4B0CB3AA2ACC58490025FA52 /* Preview Content */,
 			);
 			path = Homage;
 			sourceTree = "<group>";
@@ -65,6 +64,15 @@
 				4B0CB3AB2ACC58490025FA52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B0CB3B22ACC589E0025FA52 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B0CB3A82ACC58490025FA52 /* Assets.xcassets */,
+				4B0CB3AA2ACC58490025FA52 /* Preview Content */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +279,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Homage/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Homage/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 47E56DYP3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -300,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Homage/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Homage/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 47E56DYP3N;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
