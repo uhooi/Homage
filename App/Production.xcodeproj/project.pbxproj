@@ -10,7 +10,7 @@
 		4B0CB3BA2ACC5A070025FA52 /* ProductionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CB3B42ACC5A070025FA52 /* ProductionApp.swift */; };
 		4B0CB3BB2ACC5A070025FA52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CB3B62ACC5A070025FA52 /* Assets.xcassets */; };
 		4B0CB3BC2ACC5A070025FA52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B0CB3B82ACC5A070025FA52 /* Preview Assets.xcassets */; };
-		4B0CB3BD2ACC5A070025FA52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0CB3B92ACC5A070025FA52 /* ContentView.swift */; };
+		4B99D7C52ACC5EE700AE418C /* Production in Frameworks */ = {isa = PBXBuildFile; productRef = 4B99D7C42ACC5EE700AE418C /* Production */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,7 +18,6 @@
 		4B0CB3B42ACC5A070025FA52 /* ProductionApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductionApp.swift; sourceTree = "<group>"; };
 		4B0CB3B62ACC5A070025FA52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B0CB3B82ACC5A070025FA52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4B0CB3B92ACC5A070025FA52 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B99D7C52ACC5EE700AE418C /* Production in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +37,7 @@
 			children = (
 				4B0CB3B32ACC5A070025FA52 /* Production */,
 				4B0CB3A22ACC58480025FA52 /* Products */,
+				4B99D7C32ACC5EE700AE418C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +54,6 @@
 			children = (
 				4B0CB3B52ACC5A070025FA52 /* Resources */,
 				4B0CB3B42ACC5A070025FA52 /* ProductionApp.swift */,
-				4B0CB3B92ACC5A070025FA52 /* ContentView.swift */,
 			);
 			name = Production;
 			path = Homage/Production;
@@ -76,6 +76,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		4B99D7C32ACC5EE700AE418C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -92,6 +99,9 @@
 			dependencies = (
 			);
 			name = Production;
+			packageProductDependencies = (
+				4B99D7C42ACC5EE700AE418C /* Production */,
+			);
 			productName = Homage;
 			productReference = 4B0CB3A12ACC58480025FA52 /* Production.app */;
 			productType = "com.apple.product-type.application";
@@ -146,7 +156,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B0CB3BD2ACC5A070025FA52 /* ContentView.swift in Sources */,
 				4B0CB3BA2ACC5A070025FA52 /* ProductionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +362,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B99D7C42ACC5EE700AE418C /* Production */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Production;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4B0CB3992ACC58470025FA52 /* Project object */;
 }
